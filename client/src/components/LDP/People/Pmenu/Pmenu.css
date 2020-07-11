@@ -1,0 +1,32 @@
+.Pmenu{
+    width: 20%;
+    /* height: 20%; */
+    /* margin-left: %; */
+}
+.Pmenu button{
+    background: #f7f7ee;
+    color: black;
+    border: 2px solid #f6cd61;
+    border-radius: 10px;
+    position:relative;
+    width: 300px;
+    height:60px;
+    font-size:x-large;
+    cursor:pointer;
+    margin-left: -25%;
+    margin-top: 15%; 
+    font-family: 'Noto Serif KR', serif;
+}
+.Pmenu:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.Pmenu button:hover,
+.Pmenu:active {
+    color: #472600;
+    background: #c5c5c5b9;
+}

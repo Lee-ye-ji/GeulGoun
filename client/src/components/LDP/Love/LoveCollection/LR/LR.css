@@ -1,0 +1,17 @@
+.LR{
+    width: 25%;
+    margin-top: 1%;
+    margin-left: -1%;
+}
+#pd{ 
+    border: none;
+    width: 80%;
+    /* height: 40%; */
+    /* margin-top: 3%; */
+}
+#pp{ 
+    /* border: none; */
+    width: 80%;
+    /* height: 50%; */
+    /* margin-top: 3%; */
+}

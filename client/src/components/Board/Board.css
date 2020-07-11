@@ -1,0 +1,6 @@
+.Board{
+    background-image: url('./BoardBG.jpg');
+    font-family: 'Noto Serif KR', serif;
+    /* width: 700px; */
+    height: 770px;
+}

@@ -1,0 +1,28 @@
+.LDP{
+    background-image: url('./LDPBG.png');
+    font-family: 'Noto Serif KR', serif;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 850px;
+    
+}
+.menu{
+    /* margin-top: 1%; */
+}
+.LDPmenu{
+    flex-direction: row;
+    display: flex;  
+    padding-left: 6%;
+    margin-top: 1%;
+}
+.L{
+    margin-left: 15%;
+}
+.D{
+    /* margin-left: -20%; */
+    margin-right: 4%;
+}
+.P{
+    /* margin-left: -15%; */
+    margin-right: 20%;
+}

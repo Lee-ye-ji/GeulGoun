@@ -1,0 +1,16 @@
+.Dream{
+    background-image: url('./dreambg.png');
+    font-family: 'Noto Serif KR', serif;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 850px;
+}
+.logo{
+    margin-top: 3%;
+}
+.Dreambd{
+    flex-direction: row;
+    display: flex;
+    /* margin-top: 3%; */
+    margin-left: -10%;
+}

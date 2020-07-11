@@ -1,0 +1,11 @@
+.People{
+    background-image: url('./peoplebg.png');
+    font-family: 'Noto Serif KR', serif;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 750px;
+}
+.Peoplebd{
+    flex-direction: row;
+    display: flex;
+}

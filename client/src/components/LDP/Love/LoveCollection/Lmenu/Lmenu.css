@@ -1,0 +1,32 @@
+.Lmenu{
+    width: 20%;
+    /* height: 20%; */
+    /* margin-left: -2%; */
+}
+.Lmenu button{
+    background: #f7f7ee;
+    color: black;
+    border: 2px solid #f6cd61;
+    border-radius: 10px;
+    position:relative;
+    width: 300px;
+    height:60px;
+    font-size:x-large;
+    cursor:pointer;
+    margin-left: -30%;
+    margin-top: 10%; 
+    font-family: 'Noto Serif KR', serif;
+}
+.Lmenu:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.Lmenu button:hover,
+.Lmenu:active {
+    color: #bb596b;
+    background: #faeee7e0;
+}

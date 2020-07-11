@@ -1,0 +1,10 @@
+.Memo{
+    background-image: url('./MemoBG.jpg');
+    font-family: 'Noto Serif KR', serif;
+    height: 840px;
+}
+.Memo > div.container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 50px);
+}

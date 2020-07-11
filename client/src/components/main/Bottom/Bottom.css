@@ -1,0 +1,20 @@
+/* bottom */
+#typescript{
+    margin-left: -2%;
+    margin-top: 5%;
+    width:800px;
+    height: 350px;
+}
+.typingeffect{
+    position:absolute;
+    top: 69%;
+    left: 37%;
+    width: 24em;
+    margin: 0 auto;
+    /* border-right: 2px solid rgba(255,255,255,.75); */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    font-size:20px;
+}

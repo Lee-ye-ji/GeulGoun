@@ -1,0 +1,8 @@
+div.list {
+    width: 20%;
+    height: 68%;
+    border-right: 2px solid #ffffff;
+    background-color: rgba(230, 194, 172, 0.815);
+    margin-left: 15%;
+    color: #474646;
+}

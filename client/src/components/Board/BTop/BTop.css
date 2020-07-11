@@ -1,0 +1,30 @@
+.BTop{
+    flex-direction: row;
+    display: flex;
+    font-family: 'Noto Serif KR', serif;
+    background-color: #F5F2E4;
+    width:70%;
+    height: 10%;
+    margin-left: 15%;
+    margin-top: 5%
+}
+.BTop h2{
+    padding: 2%;
+    margin-left: 40%;
+}
+.search{
+    padding: 3%;
+    margin-left: 5%;
+}
+.title ::placeholder{
+    font-family: 'Noto Serif KR', serif;
+}
+div.BTop > div.search > button {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(119, 89, 61);
+    cursor: pointer;
+    font-family: 'Noto Serif KR', serif;
+    color: white;
+    border: 1px solid #fff;
+}

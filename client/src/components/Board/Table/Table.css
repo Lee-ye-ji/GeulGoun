@@ -1,0 +1,18 @@
+.Table{
+    background-color: #F5F2E4;
+    width:70%;
+    height: 50%;
+    margin-left: 15%;
+}
+.table-cu{
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+.table-cu th{
+    border-bottom: 2px solid #C6B394;
+    background-color: #CBBCA2;
+}
+.table-cu td{
+    background-color: #DDCBBB;
+}
