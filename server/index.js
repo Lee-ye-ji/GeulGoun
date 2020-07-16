@@ -96,6 +96,20 @@ app.get('/api/users/logout', auth, (req, res) => {
     })
 })
 
+app.post('/api/users/idconfirm', (req, res) => {
+    //요청된 이름이 데이터베이스에 있는지 찾는다.
+    User.findOne({ name: req.body.name}, (err, user) => {
+
+        if(!user){
+            return res.json({
+                idconfirm: false,
+                message: "이름이 존재하지 않습니다."
+            })
+        }
+
+    })
+})
+
 const port = 5000
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))

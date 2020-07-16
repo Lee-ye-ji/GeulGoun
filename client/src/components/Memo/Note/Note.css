@@ -1,7 +1,7 @@
 div.note {
-    width: 40%;
-    height: 50%;
-    padding: 70px 70px 70px 70px;
+    width: 785px;
+    height: 466px;
+    padding: 70px;
     background-color: rgba(223, 198, 167, 0.884);
 
 }
@@ -33,4 +33,56 @@ div.note > textarea.note-contents {
     /* height: calc(100% - 60px); */
     outline: none;
     resize: none;
+}
+@media only screen and ( max-width: 1292px ){
+    div.note {
+        width: 620px;
+        height: 469px;
+    }
+}
+@media only screen and ( max-width: 1252px ){
+    div.note {
+        width: 620px;
+        height: 410px;
+    }
+    div.note > input.title {
+        margin-top: -5%;
+    }
+    div.note > textarea.note-contents {
+        height: 250px;
+    }
+}
+@media only screen and ( max-width: 912px ){
+    div.note {
+        width: 400px;
+        height: 470px;
+        padding: 20px;
+    }
+    div.note > input.title {
+        margin-top: 15%;
+    }
+}
+@media only screen and ( max-width: 912px ){
+    div.note {
+        width: 390px;
+        height: 410px;
+        padding: 20px;
+    }
+    div.note > input.title {
+        margin-top: 10%;
+    }
+}
+@media only screen and ( max-width: 754px ){
+    div.note {
+        width: 600px;
+        height: 410px;
+        padding: 10px;
+    }
+    div.note > input.title {
+        width: 300px;
+        margin-top: 15%;
+    }
+    div.note > textarea.note-contents {
+        height: 250px;
+    }
 }

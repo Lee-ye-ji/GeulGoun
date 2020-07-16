@@ -1,9 +1,4 @@
-.btn{
-    /* margin-left: -1%; */
-}
 .btn button{
-    /* background:#e6d0c5; */
-    /* background:#d4b7a7; */
     background:#CFB486;
     color:#ffffff;
     border:none;
@@ -42,14 +37,52 @@
     transition:800ms ease all;
 }
 #btn1{
-    /* margin-left: 16%; */
-    margin-top: 2%;
+    margin-left: -5px;
 }
 #btn2{
-    margin-left: 4%;
-    margin-top: 2%;
+    margin-left: 10px;
+    
 }
 #btn3{
-    margin-left: 4%;
-    margin-top: 2%;
+    margin-left: 10px;
 }
+.btn{
+    position: relative;
+    top: 20px;
+}
+
+@media only screen and ( max-width: 940px ){
+    .btn button{
+        width: 250px;
+    }
+    #btn2{
+        margin-left: 5px;
+    }
+    #btn3{
+        margin-left: 5px;
+    }
+
+    }
+
+@media only screen and ( max-width: 849px ){
+    .btn{
+        width: 300px;
+        height: 200px;
+        margin-left: 4px;
+    }
+    .btn button{
+        width: 300px;
+    }
+    #btn1{
+        margin-left: -1px;
+    }
+    #btn2{
+        margin-top: 40px;
+        margin-left: -2px;
+    }
+    #btn3{
+        margin-top: 40px;
+        margin-left: -2px;
+    }
+
+    }

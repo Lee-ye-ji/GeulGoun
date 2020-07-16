@@ -56,9 +56,8 @@ function JForm(props){
         })
     }
     return(
-        <div className="JForm">
         <div className="membership-page">
-            <div className="form">
+            <div className="Jform">
             <form className="registerform" onSubmit={onSubmitHandler}>
                 <input type="text" placeholder="아이디" value={id} onChange={onChangeId}/>
                 <input type="password" placeholder="비밀번호" value={pw} onChange={onChangepw}/>
@@ -68,7 +67,6 @@ function JForm(props){
                 <p className="message">이미 등록된 계정이신가요? <Link to="/Login">로그인하기</Link></p>
             </form> 
             </div>
-        </div>
         </div>
 
     );

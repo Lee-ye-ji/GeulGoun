@@ -1,0 +1,42 @@
+.NameInput{
+    font-family: 'Noto Serif KR', serif;
+    /* width: 50%; */
+    height: 20%;
+    margin-top: 5%;
+}
+.Namebutton{
+    font-family: 'Noto Serif KR', serif;
+    background-color: #9b57c2;
+    color: white;
+    margin-left: 1%;
+}
+.idForm {
+    width: 500px;
+    /* margin: auto; */
+    margin-left: 33%;
+    float: center;
+    background: #FFFFFF;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    height: 300px;
+    margin-top: -3%;
+}
+.pNname{
+    background-color: #ff9591;
+    color: white;
+}
+.down{
+    margin-top: 10%;
+}
+/* .back{
+    margin-top: 10%;
+} */
+.idconfirm{
+    margin-top: 10%;
+    font-size: x-large;
+}
+#login{
+    color: #ff6600;
+}
+#pw{
+    color:#2d7a22;
+}

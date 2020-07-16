@@ -46,9 +46,8 @@ function Form(props){
                     <button>로그인</button>
                         <p class="message">계정이 없으신가요? 
                         <Link to="/Join">회원가입</Link></p>
-                        <p class="idpw"><Link id="id">아이디찾기</Link> | 
-                        <Link id="pw">비밀번호찾기</Link></p>
-                    
+                        <p class="idpw"><Link to="/Search_id" id="id">아이디찾기</Link> | 
+                        <Link to="/Pw" id="pw">비밀번호찾기</Link></p>
                 </form>
             </div>
         </div>

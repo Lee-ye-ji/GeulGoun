@@ -4,18 +4,22 @@ import './App.css';
 import Main from './components/main/Main';
 import Login from './components/Login/Login';
 import Join from './components/Join/Join';
-import LDP from './components/LDP/LDP';
 import Memo from './components/Memo/Memo';
 import Board from './components/Board/Board';
+import Search_id from  './components/Login/Search_id/Search_id';
+import Pw from './components/Login/PW/PW';
 
-import Love from './components/LDP/Love/LoveCollection/Love';
-import Couple from './components/LDP/Love/LoveContent/Couple/Couple';
-import Destiny from './components/LDP/Love/LoveContent/Destiny/Destiny';
-import Farewall from './components/LDP/Love/LoveContent/Farewall/Farewall';
-import Crush from './components/LDP/Love/LoveContent/Crush/Crush';
+import Happy from './components/Write/Happy/Happy';
+import School from './components/Write/Happy/School/School';
+import Company from './components/Write/Happy/Company/Company';
+import Diet from './components/Write/Happy/Diet/Diet';
 
-import Dream from './components/LDP/Dream/Dream';
-import People from './components/LDP/People/People';
+import Move from './components/Write/Move/Love';
+
+import Comfort from './components/Write/Comfort/Comfort';
+import Relationship from './components/Write/Comfort/Relationship/Relationship';
+import Dream from './components/Write/Comfort/Dream/Dream';
+import Self_esteem from './components/Write/Comfort/Self-esteem/Self_esteem';
 
 import Auth from './hoc/auth'
 
@@ -27,18 +31,24 @@ class App extends Component {
           <Route exact path="/" component={Auth(Main, null)}></Route>
           <Route exact path="/Login" component={Auth(Login, false)} ></Route>
           <Route exact path="/Join" component={Auth(Join, false)} ></Route>
-          <Route exact path="/LDP" component={Auth(LDP, null)} ></Route>
+          {/* <Route exact path="/LDP" component={Auth(LDP, null)} ></Route> */}
           <Route exact path="/Memo" component={Auth(Memo, true)} ></Route>
           <Route exact path="/Board" component={Auth(Board, true)} ></Route>
-          
-            <Route exact path="/Love" component={Love}></Route>
-              <Route exact path="/Couple" component={Couple}></Route>
-              <Route exact path="/Destiny" component={Destiny}></Route>
-              <Route exact path="/Farewall" component={Farewall}></Route>
-              <Route exact path="/Crush" component={Crush}></Route>
+          <Route exact path="/Search_id" component={Search_id}></Route>
+          <Route exact path="/Pw" component={Pw}></Route>
+
+              <Route exact path="/Happy" component={Happy}></Route>
+              <Route exact path="/School" component={School}></Route>
+              <Route exact path="/Company" component={Company}></Route>
+              <Route exact path="/Diet" component={Diet}></Route>
+
+              <Route exact path="/Move" component={Move}></Route>
               
-            <Route exact path="/Dream" component={Dream}></Route>
-            <Route exact path="/People" component={People}></Route>
+              <Route exact path="/Comfort" component={Comfort}></Route>
+              <Route exact path="/Relationship" component={Relationship}></Route>
+              <Route exact path="/Dream" component={Dream}></Route>
+              <Route exact path="/self_esteem" component={Self_esteem}></Route>
+
             
       </Switch>
       <Link to="/history"></Link>

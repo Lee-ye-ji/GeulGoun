@@ -10,6 +10,82 @@
 }
 .lg #toplogo{
     width: 350px;
-    margin-left: 5%;
     margin-top: 7%;
+}
+@media only screen and ( max-width: 990px ){
+  .lg{
+      margin-left: -57px;
+  }
+}
+@media only screen and ( max-width: 880px ){
+  .lg{
+    margin-top: 80px;
+    margin-right: 225px;
+  }
+  .lg #toplogo{
+    width: 340px;
+    margin-right: 25px;
+  }
+}
+@media only screen and ( max-width: 750px ){
+  .lg{
+    margin-top: 80px;
+    margin-right: 299px;
+  }
+    .lg #toplogo{
+    width: 340px;
+    
+}
+}
+@media only screen and ( max-width: 858px ){
+  .lg #toplogo{
+    margin-left: 6%;
+    
+}
+}
+@media only screen and ( max-width: 660px ){
+  .lg .logo{
+    width: 400px;
+    margin-left: 170px;
+  }
+  .lg #toplogo{
+    width: 340px;
+    
+}
+}
+@media only screen and ( max-width: 590px ){
+  .lg .logo{
+    width: 390px;
+    margin-left: 150px;
+  }
+  .lg #toplogo{
+    width: 330px;
+}
+}
+@media only screen and ( max-width: 500px ){
+  .lg .logo{
+    width: 350px;
+    margin-left: 140px;
+  }
+  .lg #toplogo{
+    width: 290px;
+}
+}
+@media only screen and ( max-width: 455px ){
+  .lg .logo{
+    width: 300px;
+    margin-left: 125px;
+  }
+  .lg #toplogo{
+    width: 240px;
+}
+}
+@media only screen and ( max-width: 380px ){
+  .lg .logo{
+    width: 260px;
+    margin-left: 100px;
+  }
+  .lg #toplogo{
+    width: 200px;
+}
 }

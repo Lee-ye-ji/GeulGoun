@@ -1,3 +1,76 @@
 .JLg{
     margin-top: -60px;
 }
+@media only screen and ( max-width: 990px ){
+.JLg{
+    margin-left: -57px;
+}
+}
+@media only screen and ( max-width: 880px ){
+.JLg{
+    margin-top: 80px;
+    margin-left: 1px;
+}
+.JLg #toplogo{
+    width: 340px;
+    margin-right: 25px;
+}
+}
+@media only screen and ( max-width: 750px ){
+.JLg{
+    margin-left: 5%;
+}
+}
+@media only screen and ( max-width: 862px ){
+.JLg #toplogo{
+    margin-left: 6%; 
+    width: 300px; 
+}
+
+}
+@media only screen and ( max-width: 660px ){
+.JLg .logo{
+    width: 400px;
+    margin-left: 136px;
+}
+.JLg #toplogo{
+    width: 340px;
+    
+}
+}
+@media only screen and ( max-width: 590px ){
+.JLg .logo{
+    width: 390px;
+    margin-left: 121px;
+}
+.JLg #toplogo{
+    width: 330px;
+}
+}
+@media only screen and ( max-width: 500px ){
+.JLg .logo{
+    width: 350px;
+    margin-left: 100px;
+}
+.JLg #toplogo{
+    width: 290px;
+}
+}
+@media only screen and ( max-width: 455px ){
+.JLg .logo{
+    width: 300px;
+    margin-left: 120px;
+}
+.JLg #toplogo{
+    width: 240px;
+}
+}
+@media only screen and ( max-width: 380px ){
+.JLg .logo{
+    width: 260px;
+    margin-left: 90px;
+}
+.JLg #toplogo{
+    width: 200px;
+}
+}

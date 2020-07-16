@@ -10,11 +10,8 @@
     position: relative;
     z-index: 1;
     max-width: 400px;
-    /* margin: 0 auto 100px; */
     padding: 50px;
-    text-align: center;
-    margin-left: 10%;
-    /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+    
 }
 .form input {
     outline: 0;
@@ -68,4 +65,77 @@
 }
 .form .register-form {
     display: none;
+}
+.login-form{
+    margin-left: 18%;
+    width: 100%;
+}
+@media only screen and ( max-width: 990px ){
+    .login-page {
+        margin-left: 29%;
+
+    }
+}
+@media only screen and ( max-width: 880px ){
+    .login-page {
+        margin-left: 20%;
+    }
+}
+@media only screen and ( max-width: 750px ){
+    .login-page {
+        margin-left: 15%;
+    }
+}
+@media only screen and ( max-width: 720px ){
+    .login-page {
+        margin-right: 90%;
+    }
+}
+@media only screen and ( max-width: 660px ){
+    .login-page {
+        width: 400px;
+        margin-left: 112px;
+    }
+    .login-form{
+        margin-left: -10%;
+    }
+    .form{
+        width: 350px;
+    }
+}
+@media only screen and ( max-width: 590px ){
+    .login-page {
+        margin-left: 90px;
+        width: 394px;
+    }
+}
+@media only screen and ( max-width: 500px ){
+    .login-page {
+        margin-left: 82px;
+        width: 350px;
+    }
+    .form{
+        padding-left: 70px;
+        width: 390px;
+    }
+}
+@media only screen and ( max-width: 455px ){
+    .login-page {
+        margin-left: 69px;
+        width: 300px;
+    }
+    .form{
+        width: 340px;
+    }
+}
+@media only screen and ( max-width: 380px ){
+    .login-page {
+        margin-left: 40px;
+        width: 264px;
+    }
+    .form{
+        padding: 10%;
+        width: 260px;
+        padding-left: 20%;
+    }
 }

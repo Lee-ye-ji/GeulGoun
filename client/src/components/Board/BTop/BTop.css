@@ -28,3 +28,92 @@ div.BTop > div.search > button {
     color: white;
     border: 1px solid #fff;
 }
+@media only screen and ( max-width: 1291px ){
+    .BTop{
+        margin-top: 2%;
+    }
+    .BTop h2{
+        font-size: 22px;
+        margin-top: 1%;
+    }
+    .search{
+        margin-left: 10%;
+    }
+    .title{
+        width: 200px;
+    }
+}
+@media only screen and ( max-width: 1291px ){
+    .BTop{
+        margin-top: -2%;
+    }
+}
+@media only screen and ( max-width: 1252px ){
+    .BTop h2{
+        font-size: 20px;
+        margin-top: 1%;
+        margin-left: 45%;
+        width: 40%;
+    }
+    .search{
+        flex-direction: row;
+    }
+    .title{
+        width: 200px;
+        margin-left: -25%;
+    }
+}
+@media only screen and ( max-width: 1147px ){
+    .BTop h2{
+        margin-left: 40%;
+    }
+    .title{
+        width: 200px;
+        margin-left: -40%;
+    }
+}
+@media only screen and ( max-width: 958px ){
+    .BTop h2{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .search{
+        margin-top: 3%;
+    }
+}
+@media only screen and ( max-width: 920px ){
+    .BTop h2{
+        margin-top: 2%;
+    }
+    .search{
+        margin-top: 1%;
+    }
+}
+@media only screen and ( max-width: 630px ){
+    .BTop h2{
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+}
+@media only screen and ( max-width: 565px ){
+    .BTop h2{
+        font-size: 18px;
+        margin-left: 7%;
+        margin-top: 3%;
+    }
+    .title{
+        width: 150px;
+    }
+}
+@media only screen and ( max-width: 464px ){
+    .BTop h2{
+        font-size: 17px;
+        margin-left: 2%;
+        margin-top: 7%;
+    }
+    .title{
+        width: 140px;
+        margin-left: -20%;
+        margin-top: 7%;
+    }
+}

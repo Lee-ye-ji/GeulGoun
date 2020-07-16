@@ -2,6 +2,12 @@
     /* background-color: #ece6cc; */
     background-image: url('./MainBG.png');
     font-family: 'Noto Serif KR', serif;
-    height: 850px;
-    
+    width: 100%;
+    height: 100%;
+    position:fixed;
 }
+/* @media ( max-width: 928px ){
+    .Main{
+        width: 400px;
+    }
+} */

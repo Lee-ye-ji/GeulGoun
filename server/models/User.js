@@ -17,6 +17,14 @@ const userSchema = mongoose.Schema({
         type: String,
         maxlength: 50
     },
+    title: {
+        type: String,
+        maxlength: 10
+    },
+    contents: {
+        type: String,
+        maxlength: 100
+    },
     role:{ //관리자인지 사용자인지 판별해주는 것
         type: Number,
         default: 0

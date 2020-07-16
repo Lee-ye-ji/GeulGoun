@@ -1,0 +1,15 @@
+.WHM{
+    font-family: 'Noto Serif KR', serif;
+    /* margin-top: -15%; */
+}
+.WLogo{
+    margin-top: -2%;
+}
+@media ( max-width: 962px ){
+    .WContent img{
+        width: 120%;
+    }
+    .WContent .Content{
+        margin-top: -3%;
+    }
+} 

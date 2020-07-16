@@ -5,16 +5,25 @@ import Bottom from "./Bottom/Bottom";
 import HM from "./HM/HM";
 import './Main.css';
 import { withRouter } from 'react-router-dom'; 
+import { useMediaQuery } from 'react-responsive';
 
-function Main(props){
-
+function Main(){
+    const Small = useMediaQuery({ query: '(max-width: 846px)' })
+    const Big = useMediaQuery({ query: '(min-width: 847px)'})
 
     return(
     <div class="Main">
+    { Small && <>
+        <HM></HM>
+        <Logo></Logo>
+        <Menu></Menu>
+    </>}
+    { Big && <>
         <HM></HM>
         <Logo></Logo>
         <Menu></Menu>
         <Bottom></Bottom>
+    </>}
     </div>
     );
 

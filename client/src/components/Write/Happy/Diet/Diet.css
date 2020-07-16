@@ -1,0 +1,12 @@
+.DHM{
+    font-family: 'Noto Serif KR', serif;
+    /* margin-top: -15%; */
+}
+.DLogo{
+    margin-top: -2%;
+}
+@media ( max-width: 962px ){
+    .DContent img{
+        width: 120%;
+    }
+} 

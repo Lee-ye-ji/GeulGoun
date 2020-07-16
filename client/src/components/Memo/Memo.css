@@ -1,7 +1,8 @@
 .Memo{
     background-image: url('./MemoBG.jpg');
     font-family: 'Noto Serif KR', serif;
-    height: 840px;
+    width: 100%;
+    height: 100%;
 }
 .Memo > div.container {
     display: flex;
