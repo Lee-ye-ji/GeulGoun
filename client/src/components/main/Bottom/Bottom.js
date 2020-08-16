@@ -6,11 +6,11 @@ import Typist from "react-typist";
 class Bottom extends Component{
     render(){
     return(
-    <div class="bottom">
-        <image>
+    <div className="bottom">
+        {/* <image> */}
         <img id="typescript" src={typescript} alt={"typescript"}/> 
-        </image>
-        <div class="typingeffect">
+        {/* </image> */}
+        <div className="typingeffect">
         <Typist>
         <p id="type-in">말도 아름다운 꽃처럼 그 색깔을 지니고 있다.</p>
         <p id="type-after"> -E.리스-</p>

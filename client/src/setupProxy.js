@@ -10,12 +10,3 @@ module.exports = function(app) {
 );
 
 };
-// module.exports = setup({
-//     context: __dirname,
-//     entry: './app.js',
-//     devServer: {
-//     proxy: {
-//     '/api': 'http://localhost:5000'
-//     }
-// }
-// });

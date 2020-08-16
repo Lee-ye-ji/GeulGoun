@@ -7,7 +7,7 @@ import './Love.css';
 class Love extends Component {
     render(){
         return(
-        <div class="Love">
+        <div className="Love">
             <div className="LHM"><JHM></JHM></div>
             <div className="LLogo"><Logo></Logo></div>
             <div className="LContent"><Content></Content></div>

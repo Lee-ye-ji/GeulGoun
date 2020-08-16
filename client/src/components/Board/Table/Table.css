@@ -1,18 +1,24 @@
 .Table{
     background-color: #F5F2E4;
-    width:70%;
+    /* width:70%;
     height: 50%;
-    margin-left: 15%;
+    margin-left: 15%; */
+    width: 100%;
 }
 .table-cu{
     text-align: center;
     width: 100%;
-    padding: 5%;
 }
 .table-cu th{
-    border-bottom: 2px solid #C6B394;
+    border: 2px solid #C6B394;
     background-color: #CBBCA2;
 }
-.table-cu td{
+.td {
     background-color: #DDCBBB;
+    color: black;
+    text-align: center;
+    border: 2px solid #C6B394;
+}
+.td:hover{
+    background-color: burlywood;
 }

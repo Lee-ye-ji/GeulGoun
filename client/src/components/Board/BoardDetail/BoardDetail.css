@@ -1,0 +1,41 @@
+.BoardDetail{
+    margin: 10px 100px;
+    font-family: 'Noto Serif KR', serif;
+    background-color: #F5F2E4;
+    padding: 50px;
+}
+.BoardDetail header{
+    flex-direction: row;
+    display: flex;
+    font-family: 'Noto Serif KR', serif;
+}
+.BoardDetail > header > p {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 9px;
+}
+.BoardDetail > header{
+    background-color: burlywood;
+    
+}
+.button{
+    padding-top: 10px;
+}
+.button > button{
+    background-color: rgb(119, 89, 61);
+    cursor: pointer;
+    font-family: 'Noto Serif KR', serif;
+    color: white;
+    border: 1px solid #fff;
+}
+.button{
+    padding-left: 77%;
+}
+.titlestyle{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.contentstyle{
+    width: 100%;
+    height: 300px;
+}

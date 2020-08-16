@@ -3,21 +3,22 @@
     display: flex;
     font-family: 'Noto Serif KR', serif;
     background-color: #F5F2E4;
-    width:70%;
-    height: 10%;
-    margin-left: 15%;
+    /* height: 10%;
+    width: 70%;
+    margin-left: 15%; */
+    margin-top: 20px;
 }
 
 
 .textbuttons{
-    margin-left: 45%;
+    /* margin-left: 45%; */
+    float: right;
 }
 div.Bbottom > div.textbuttons > button {
     font-size: 14px;
     font-weight: 700;
-    background-color: #ece6cc;
+    background-color: rgb(119, 89,61);
     cursor: pointer;
     font-family: 'Noto Serif KR', serif;
     color: #000000;
-    border: 1px solid rgb(119, 89, 61);
 }

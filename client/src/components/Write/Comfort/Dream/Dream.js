@@ -7,7 +7,7 @@ import JHM from '../../../Join/JHM/JHM';
 class Dream extends Component {
     render(){
         return(
-        <div class="Dream">
+        <div className="Dream">
         <style>{style}</style>
             <div className="CHM"><JHM></JHM></div>
             <div className="CLogo"><Logo></Logo></div>

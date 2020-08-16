@@ -9,12 +9,14 @@ import Logout from '../Logout/Logout';
 class Board extends Component {
     render(){
         return(
-        <div class="Board">
+        <div className="Board">
         <BHM></BHM>
         <Logout></Logout>
-        <BTop></BTop>
-        <Table></Table>
-        <Bbottom></Bbottom>
+            <div className="BoardContent"> 
+                <BTop></BTop>
+                <Table></Table>
+                <Bbottom></Bbottom>
+            </div>
         </div>
             
         );

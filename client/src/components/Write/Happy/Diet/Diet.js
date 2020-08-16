@@ -7,7 +7,7 @@ import JHM from '../../../Join/JHM/JHM';
 class Diet extends Component {
     render(){
         return(
-        <div class="Diet">
+        <div className="Diet">
             <div className="DHM"><JHM></JHM></div>
             <div className="DLogo"><Logo></Logo></div>
             <div className="DContent"><Content></Content></div>

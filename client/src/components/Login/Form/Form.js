@@ -38,15 +38,15 @@ function Form(props){
     }
 
     return(
-        <div class="login-page">
-            <div class="form">
-                <form class="login-form" onSubmit={onSubmitHandler} >
+        <div className="login-page">
+            <div className="form">
+                <form className="login-form" onSubmit={onSubmitHandler} >
                     <input type="text" name="id" placeholder="아이디" value={id} onChange={onChangeId}/>
                     <input type="password" name='pw' placeholder="비밀번호" value={pw} onChange={onChangepw}/>
                     <button>로그인</button>
-                        <p class="message">계정이 없으신가요? 
+                        <p className="message">계정이 없으신가요? 
                         <Link to="/Join">회원가입</Link></p>
-                        <p class="idpw"><Link to="/Search_id" id="id">아이디찾기</Link> | 
+                        <p className="idpw"><Link to="/Search_id" id="id">아이디찾기</Link> | 
                         <Link to="/Pw" id="pw">비밀번호찾기</Link></p>
                 </form>
             </div>

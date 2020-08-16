@@ -7,7 +7,7 @@ import JHM from '../../../Join/JHM/JHM';
 class Self_esteem extends Component {
     render(){
         return(
-        <div class="Self_esteem">
+        <div className="Self_esteem">
         <style>{style}</style>
             <div className="SHM"><JHM></JHM></div>
             <div className="SLogo"><Logo></Logo></div>

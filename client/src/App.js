@@ -1,13 +1,16 @@
 import React, {Component} from 'react';
-import {Route,Switch, Link} from 'react-router-dom';
+import {Route,Switch} from 'react-router-dom';
 import './App.css';
 import Main from './components/main/Main';
 import Login from './components/Login/Login';
 import Join from './components/Join/Join';
 import Memo from './components/Memo/Memo';
 import Board from './components/Board/Board';
+import BoardWrite from './components/Board/BoardWrite/BoardWrite'
+import BoardDetail from './components/Board/BoardDetail/BoardDetail';
+// import BoardDetail from './components/Board/BoardDetail/BoardDetail'
 import Search_id from  './components/Login/Search_id/Search_id';
-import Pw from './components/Login/PW/PW';
+// import Pw from './components/Login/PW/PW';
 
 import Happy from './components/Write/Happy/Happy';
 import School from './components/Write/Happy/School/School';
@@ -23,19 +26,24 @@ import Self_esteem from './components/Write/Comfort/Self-esteem/Self_esteem';
 
 import Auth from './hoc/auth'
 
+
 class App extends Component {
+// export default React.App({
   render(){
     return(
     <div className="App">
       <Switch>
           <Route exact path="/" component={Auth(Main, null)}></Route>
           <Route exact path="/Login" component={Auth(Login, false)} ></Route>
+          <Route exact path="/Search_id" component={Search_id}></Route>
+          {/* <Route exact path="/Pw" component={Pw}></Route> */}
           <Route exact path="/Join" component={Auth(Join, false)} ></Route>
-          {/* <Route exact path="/LDP" component={Auth(LDP, null)} ></Route> */}
+          
           <Route exact path="/Memo" component={Auth(Memo, true)} ></Route>
           <Route exact path="/Board" component={Auth(Board, true)} ></Route>
-          <Route exact path="/Search_id" component={Search_id}></Route>
-          <Route exact path="/Pw" component={Pw}></Route>
+          <Route exact path="/Board/Write" component={Auth(BoardWrite,null)}></Route>
+          {/* <Route exact path="/Board/Detail" component={Auth(BoardDetail,null)}></Route> */}
+          <Route exact path="/Board/:boardId" component={BoardDetail}></Route>
 
               <Route exact path="/Happy" component={Happy}></Route>
               <Route exact path="/School" component={School}></Route>
@@ -51,7 +59,7 @@ class App extends Component {
 
             
       </Switch>
-      <Link to="/history"></Link>
+      {/* <Link to="/history"></Link> */}
     </div>
         
     );

@@ -8,7 +8,7 @@ import './Happy.css';
 class Happy extends Component {
     render(){
         return(
-        <div class="Happy">
+        <div className="Happy">
         <JHM></JHM>
         <Logo></Logo>
         <CardCT></CardCT>

@@ -5,3 +5,8 @@
     height: 770px;
     width: 100%;
 }
+.BoardContent{
+    background-color: #F5F2E4;
+    margin: 50px 100px;
+    padding: 20px;
+}

@@ -2,11 +2,6 @@
     flex-direction: row;
     display: flex;
     font-family: 'Noto Serif KR', serif;
-    background-color: #F5F2E4;
-    width:70%;
-    height: 10%;
-    margin-left: 15%;
-    margin-top: 5%
 }
 .BTop h2{
     padding: 2%;

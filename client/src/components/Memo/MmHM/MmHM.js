@@ -5,7 +5,7 @@ import HM from "../../main/HM/HM";
 class MmHM extends Component{
     render(){
     return(
-        <div class="MmHM">
+        <div className="MmHM">
         <HM></HM>
         </div>
 

@@ -12,7 +12,7 @@ function Main(){
     const Big = useMediaQuery({ query: '(min-width: 847px)'})
 
     return(
-    <div class="Main">
+    <div className="Main">
     { Small && <>
         <HM></HM>
         <Logo></Logo>

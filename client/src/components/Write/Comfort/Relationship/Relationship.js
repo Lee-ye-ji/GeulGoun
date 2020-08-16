@@ -7,7 +7,7 @@ import JHM from '../../../Join/JHM/JHM';
 class Relationship extends Component {
     render(){
         return(
-        <div class="Relationship">
+        <div className="Relationship">
         <style>{style}</style>
             <div className="RHM"><JHM></JHM></div>
             <div className="RLogo"><Logo></Logo></div>

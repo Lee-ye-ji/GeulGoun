@@ -8,7 +8,7 @@ import './School.css';
 class School extends Component {
     render(){
         return(
-        <div class="School">
+        <div className="School">
             <div className="WHM"><JHM></JHM></div>
             <div className="WLogo"><Logo></Logo></div>
             <div className="WContent"><Content></Content></div>

@@ -8,7 +8,7 @@ import './Comfort.css';
 class Comfort extends Component {
     render(){
         return(
-        <div class="Comfort">
+        <div className="Comfort">
         <style>{style}</style>
         <JHM></JHM>
         <Logo></Logo>

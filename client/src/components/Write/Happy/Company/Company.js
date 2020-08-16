@@ -8,7 +8,7 @@ import './Company.css';
 class Company extends Component {
     render(){
         return(
-        <div class="Company">
+        <div className="Company">
             <div className="CHM"><JHM></JHM></div>
             <div className="CLogo"><Logo></Logo></div>
             <div className="CContent"><Content></Content></div>

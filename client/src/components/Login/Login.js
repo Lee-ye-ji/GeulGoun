@@ -8,7 +8,7 @@ import Lg from './Lg/Lg';
 class Login extends Component {
 render(){
     return(
-    <div class="Login">
+    <div className="Login">
     <HMLG></HMLG>
     <Lg></Lg>
     <Form></Form>

@@ -5,7 +5,7 @@ import HM from "../../main/HM/HM";
 class HMLG extends Component{
     render(){
     return(
-        <div class="HMLG">
+        <div className="HMLG">
         <HM></HM>
         </div>
 

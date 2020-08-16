@@ -1,0 +1,28 @@
+.BoardWrite{
+    margin: 50px 100px;
+    font-family: 'Noto Serif KR', serif;
+    background-color: #F5F2E4;
+    padding: 50px;
+}
+.BoardWrite h2{
+    color: black;
+}
+.titlestyle{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.buttonstyle{
+    margin-Top: 15px;
+    font-size: 17px;
+    /* font-weight: 700; */
+    background-color: rgb(119, 89, 61);
+    cursor: pointer;
+    font-family: 'Noto Serif KR', serif;
+    color: white;
+    border: 1px solid #fff;
+    width: 100%;
+}
+.contentstyle{
+    width: 100%;
+    height: 300px;
+}
