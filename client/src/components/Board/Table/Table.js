@@ -26,19 +26,23 @@ function Table(){
 
     const boardList = Board.map((board,index) => {
         
-        return <tr className="td" 
+        return <tr className="tr" 
         key={board._id}
         >
+        <td className="td">
+            <Link to= {`/board/${board._id}`}>
+                <b>{board.title}</b>
+            </Link>
+        </td>
         <td>
             <Link to= {`/board/${board._id}`}>
-            {board.title}
+                <b>{board.writer.name}</b>
             </Link>
-            </td>
+        </td>
             <td>
-                {board.writer.name}
-            </td>
-            <td>
-                {moment(board.createdAt).format("YYYY-MM-DD")}
+            <Link to= {`/board/${board._id}`}>
+                <b>{moment(board.createdAt).format("YYYY-MM-DD")}</b>
+            </Link>
             </td>
         </tr>
     })

@@ -23,7 +23,7 @@ function BoardDetail(props) {
         Axios.post('/api/board/detail', boardVariable)
         .then(response => {
             if (response.data.success) {
-                console.log(response.data)
+                // console.log(response.data)
                 setBoard(response.data.board)
             } else {
                 alert('게시판 정보를 가져오는데 실패하였습니다.')
@@ -47,17 +47,36 @@ function BoardDetail(props) {
         setCommentLists(CommentLists.concat(newComment))
     }
 
+    const onClickUpdate = (e) => {
+        e.preventDefault()
+    
+            Axios.post('/api/board/update', { boardId: boardId })
+            .then(response => {
+                if(response.data.success){
+                    // Board()
+                    // confirm("정말 삭제하시겠습니까?")
+                    alert('수정되었습니다.')
+                }else{
+                    alert('수정하는데 실패하였습니다')
+                }
+            })
+        }
+
     const onClickDelete = (e) => {
     e.preventDefault()
 
-        Axios.post('/api/board/delete')
+    if(window.confirm("정말 삭제하시겠습니까?")) {
+        Axios.post('/api/board/delete', { boardId: boardId })
         .then(response => {
             if(response.data.success){
-                // Board()
+                alert('삭제되었습니다.')
+                props.history.push('/board')
             }else{
                 alert('삭제하는데 실패하였습니다')
             }
         })
+    }
+
     }
 
 
@@ -71,7 +90,7 @@ function BoardDetail(props) {
                     <header>
                     <p>작성자:{Board.writer.name}</p> 
                     <div className="button">
-                        <button>수정하기</button>
+                        <button onClick={onClickUpdate}>수정하기</button>
                         <button onClick={onClickDelete}>삭제하기</button>
                     </div>                
                     </header>

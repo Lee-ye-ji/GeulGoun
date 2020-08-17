@@ -13,12 +13,17 @@
     border: 2px solid #C6B394;
     background-color: #CBBCA2;
 }
-.td {
+.tr {
     background-color: #DDCBBB;
-    color: black;
     text-align: center;
     border: 2px solid #C6B394;
 }
-.td:hover{
+.tr:hover{
     background-color: burlywood;
+}
+.tr b{
+    color: black;
+}
+.tr b:hover{
+    color: rgb(126, 44, 44);
 }

@@ -7,6 +7,7 @@ import './BoardWrite.css';
 import { Link } from 'react-router-dom';
 import Axios from 'axios';
 import { useSelector } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 
 
 function BoardWrite(props){
@@ -24,7 +25,7 @@ function BoardWrite(props){
     };
 
     const writeBoard = (event) => {
-        event.preventDefault();
+        event.preventDefault()
 
         const variables = {
             writer: user.userData._id,
@@ -43,7 +44,7 @@ function BoardWrite(props){
         .then(response => {
             if (response.data.success) {
                 alert('글 작성에 성공하였습니다.')
-                props.history.push('/Board')
+                props.history.push('/board')
             } else {
                 alert('글 작성에 실패하였습니다.')
             }
@@ -65,30 +66,35 @@ function BoardWrite(props){
         <BHM></BHM>
         <Logout></Logout>
             <div className="BoardWrite">
-            <Link to="/Board">
+            <header className="header">
                 <h2>글쓰기</h2>
-            </Link>
-        <Form.Control className="titlestyle"
-            type="text"
-            placeholder="제목을 입력해주세요"
-            // ref={ref => (this.boardTitle = ref)}
-            onChange={boardTitle}
-            value={title}
-        />
-        {/* <CKEditor
-            // value={content}
-            onChange={boardContent}
-            data={ content }
-        ></CKEditor> */}
-        <input className="contentstyle"
-            type="text"
-            placeholder="내용을 입력해주세요"
-            onChange={boardContent}
-            value={ content }
-        />
-        <button className="buttonstyle" onClick={writeBoard}>
-            저장하기
-        </button>
+                <Link to="/Board">
+                    <button>목록으로 돌아가기</button>
+                </Link>
+            </header>
+        <content>
+            <Form.Control className="titlestyle"
+                type="text"
+                placeholder="제목을 입력해주세요"
+                // ref={ref => (this.boardTitle = ref)}
+                onChange={boardTitle}
+                value={title}
+            />
+            {/* <CKEditor
+                // value={content}
+                onChange={boardContent}
+                data={ content }
+            ></CKEditor> */}
+            <input className="contentstyle"
+                type="text"
+                placeholder="내용을 입력해주세요"
+                onChange={boardContent}
+                value={ content }
+            />
+            <button className="buttonstyle" onClick={writeBoard}>
+                저장하기
+            </button>
+        </content>
             </div>
         </div>
             
@@ -97,4 +103,4 @@ function BoardWrite(props){
 
 
 
-export default BoardWrite;
+export default withRouter(BoardWrite);

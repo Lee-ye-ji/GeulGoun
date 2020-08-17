@@ -51,17 +51,6 @@ router.post('/login', (req, res) => {
     })
 })
 
-// router.get('/getinfo', (req, res) => {
-//     if(typeof req.session.loginInfo === "undefined") {
-//         return res.status(401).json({
-//             error: "THERE IS NO LOGIN DATA",
-//             code: 1
-//         });
-//     }
-
-//     res.json({ info: req.session.loginInfo });
-// });
-
 
 // role 0 -> 일반유저   role 0이 아니면  관리자 
 router.get('/auth', auth , (req, res) => {

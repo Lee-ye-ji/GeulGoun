@@ -27,17 +27,9 @@ router.get("/getBoard", (req, res) => {
     })
 });
 
-router.post("/delete",(req, res) => {
-    Board.findOneAndDelete({ title: req.body.title, content: req.body.content})
-    .exec((err, board) => {
-        if (err) return res.status(400).send(err)
-        res.status(200).json({ success: true, board })
-})
-});
+router.post("/detail", (req, res) => {
 
-router.post("/detail", async (req, res) => {
-
-    await Board.findOne({"_id": req.body.boardId})
+    Board.findOne({"_id": req.body.boardId})
     .populate('writer')
     .exec((err, board) => {
         if(err) return res.status(400).send(err);
@@ -45,5 +37,24 @@ router.post("/detail", async (req, res) => {
     })
 });
 
+router.post("/delete", (req, res) => {
+
+    Board.findOneAndDelete({"_id": req.body.boardId})
+    .populate('writer')
+    .exec((err, board) => {
+        if(err) return res.status(400).send(err);
+        res.status(200).json({ success: true, board })
+    })
+});
+
+router.post("/update", (req, res) => {
+
+    Board.findOneAndUpdate({"_id": req.body.boardId})
+    .populate('writer')
+    .exec((err, board) => {
+        if(err) return res.status(400).send(err);
+        res.status(200).json({ success: true, board })
+    })
+});
 
 module.exports = router;

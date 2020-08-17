@@ -14,11 +14,12 @@
     /* margin-left: 45%; */
     float: right;
 }
-div.Bbottom > div.textbuttons > button {
+.textbuttons button {
     font-size: 14px;
     font-weight: 700;
-    background-color: rgb(119, 89,61);
     cursor: pointer;
     font-family: 'Noto Serif KR', serif;
-    color: #000000;
+    background-color:   rgb(128, 113, 50);
+    border: 2px solid rgb(66, 57, 20);
+    color: white;
 }
