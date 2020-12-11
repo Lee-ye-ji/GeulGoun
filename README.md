@@ -30,3 +30,6 @@
 
 * 게시판
 <img src="https://user-images.githubusercontent.com/59958929/101912409-0b7a4e80-3c05-11eb-98de-82f9bee392c2.png" width="50%">
+
+### :sunflower: 기획서 및 코드 분석
+https://drive.google.com/drive/folders/1f5327MfAnBnVMCp1QMuksv0v0KCKliBs
