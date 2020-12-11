@@ -13,6 +13,7 @@ router.post("/write", (req, res) => {
         res.status(200).json({ success: true})
     })
 
+
 });
 
 router.get("/getBoard", (req, res) => {
