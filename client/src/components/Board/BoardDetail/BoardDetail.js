@@ -40,7 +40,7 @@ function BoardDetail(props) {
                 }
             })
 
-    }, [])
+    }, [boardVariable])
     
 
     const updateComment = (newComment) => {
