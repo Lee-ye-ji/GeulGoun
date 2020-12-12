@@ -35,3 +35,4 @@
 https://drive.google.com/file/d/1-aDzDenR_ylPs5nQI3rau2l93g25sPIq/view?usp=sharing
 
 ## 배포
+https://geulgoun.herokuapp.com/
