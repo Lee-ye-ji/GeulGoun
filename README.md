@@ -16,9 +16,8 @@
 * 글 페이지
 <img src="https://user-images.githubusercontent.com/59958929/102878781-1bf3ba00-448c-11eb-86ae-a30d9358ab49.gif" width="50%">
 
-
 * 회원가입
-<img src="https://user-images.githubusercontent.com/59958929/101911028-26e45a00-3c03-11eb-8e66-935301719b1d.png" width="50%">
+<img src="https://user-images.githubusercontent.com/59958929/102879805-bdc7d680-448d-11eb-9a84-6a34d0132e78.gif" width="50%">
 
 * 로그인
 <img src="https://user-images.githubusercontent.com/59958929/101911068-35327600-3c03-11eb-864f-c0c55940686a.png" width="50%">
