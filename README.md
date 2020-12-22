@@ -38,7 +38,7 @@ Memo
 ```
 Board & Comment
 ```
-<img src="https://user-images.githubusercontent.com/59958929/101912409-0b7a4e80-3c05-11eb-98de-82f9bee392c2.png" width="50%">
+<img src="https://user-images.githubusercontent.com/59958929/102887662-a9d6a180-449a-11eb-9921-22f9dc9b4238.gif" width="50%">
 
 ```
 Logout
