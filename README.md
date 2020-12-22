@@ -14,7 +14,7 @@
 <img src="https://user-images.githubusercontent.com/59958929/101910954-0a482200-3c03-11eb-9e50-09746d564080.png" width="50%">
 
 * 글 페이지
-<img src="https://user-images.githubusercontent.com/59958929/101914528-c4418d00-3c07-11eb-9c5a-7bdfc3702a15.png" width="50%">
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/59958929/102878781-1bf3ba00-448c-11eb-86ae-a30d9358ab49.gif)
 
 * 회원가입
 <img src="https://user-images.githubusercontent.com/59958929/101911028-26e45a00-3c03-11eb-8e66-935301719b1d.png" width="50%">
