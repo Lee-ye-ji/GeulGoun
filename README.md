@@ -11,7 +11,7 @@
 ```
 ### :blossom: 기능
 * 메인페이지
-<img src="https://user-images.githubusercontent.com/59958929/101910954-0a482200-3c03-11eb-9e50-09746d564080.png" width="50%">
+<img src="https://user-images.githubusercontent.com/59958929/102879332-ee5b4080-448c-11eb-9f61-0ef98d414727.gif" width="50%">
 
 * 글 페이지
 <img src="https://user-images.githubusercontent.com/59958929/102878781-1bf3ba00-448c-11eb-86ae-a30d9358ab49.gif" width="50%">
