@@ -42,9 +42,8 @@ Board & Comment
 
 ```
 Logout
+<img src="https://user-images.githubusercontent.com/59958929/102887099-9e36ab00-4499-11eb-87ae-113f69d5c913.gi" width="50%">
 ```
-<img src="https://user-images.githubusercontent.com/59958929/101912409-0b7a4e80-3c05-11eb-98de-82f9bee392c2.png" width="50%">
-
 ### :sunflower: 기획서 및 코드 분석
 https://drive.google.com/file/d/1-aDzDenR_ylPs5nQI3rau2l93g25sPIq/view?usp=sharing
 
