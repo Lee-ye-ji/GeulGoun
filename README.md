@@ -20,7 +20,7 @@
 <img src="https://user-images.githubusercontent.com/59958929/102879805-bdc7d680-448d-11eb-9a84-6a34d0132e78.gif" width="50%">
 
 * 로그인
-<img src="https://user-images.githubusercontent.com/59958929/101911068-35327600-3c03-11eb-864f-c0c55940686a.png" width="50%">
+<img src="https://user-images.githubusercontent.com/59958929/102886298-30d64a80-4498-11eb-9abf-6aa5a94b29b8.gif" width="50%">
 
 * 중간페이지
 <img src="https://user-images.githubusercontent.com/59958929/101911556-dde0d580-3c03-11eb-907e-bf3afae24404.png" width="50%">
