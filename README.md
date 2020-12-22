@@ -10,25 +10,39 @@
 최종적으로 자신에게 맞는 위로의 글이 나오는 사이트이다.
 ```
 ### :blossom: 기능
-* 메인페이지
+```
+Main
+```
 <img src="https://user-images.githubusercontent.com/59958929/102879332-ee5b4080-448c-11eb-9f61-0ef98d414727.gif" width="50%">
 
-* 글 페이지
+```
+Phrase
+```
 <img src="https://user-images.githubusercontent.com/59958929/102878781-1bf3ba00-448c-11eb-86ae-a30d9358ab49.gif" width="50%">
 
-* 회원가입
+```
+Join
+```
 <img src="https://user-images.githubusercontent.com/59958929/102879805-bdc7d680-448d-11eb-9a84-6a34d0132e78.gif" width="50%">
 
-* 로그인
+```
+Login
+```
 <img src="https://user-images.githubusercontent.com/59958929/102886298-30d64a80-4498-11eb-9abf-6aa5a94b29b8.gif" width="50%">
 
-* 중간페이지
-<img src="https://user-images.githubusercontent.com/59958929/101911556-dde0d580-3c03-11eb-907e-bf3afae24404.png" width="50%">
+```
+Memo
+```
+<img src="https://user-images.githubusercontent.com/59958929/102886698-ee613d80-4498-11eb-8f92-86ed15141616.gif" width="50%">
 
-* 메모장
-<img src="https://user-images.githubusercontent.com/59958929/101912314-ee458000-3c04-11eb-800a-94e05b91fbc4.png" width="50%">
+```
+Board & Comment
+```
+<img src="https://user-images.githubusercontent.com/59958929/101912409-0b7a4e80-3c05-11eb-98de-82f9bee392c2.png" width="50%">
 
-* 게시판
+```
+Logout
+```
 <img src="https://user-images.githubusercontent.com/59958929/101912409-0b7a4e80-3c05-11eb-98de-82f9bee392c2.png" width="50%">
 
 ### :sunflower: 기획서 및 코드 분석
